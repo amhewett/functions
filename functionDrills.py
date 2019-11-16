@@ -70,10 +70,13 @@ def zero(num6):
     while num6 > 0:
         print(num6)
         num6 -= 1
-       
-    
-        
-        
 '''YOUR OWN FUNCTION'''
 
 #10) Create your own function that solves any problem you can think of.
+
+def movies(movie):
+    if movie == "Avatar":
+        print("That's my favorite movie!")
+    else: 
+        print("I don't like that movie.")
+        
